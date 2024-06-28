@@ -2,6 +2,9 @@
 Tinna's Cozinha Artesanal
 
 
+![WhatsApp Image 2024-06-27 at 12 58 33](https://github.com/SimonePenido/tinnascozinhaartesanal/assets/112627846/a7d05613-48f0-4935-9dfc-ba012054a867)
+
+
 
 CREDITS & REFERENCES
 
