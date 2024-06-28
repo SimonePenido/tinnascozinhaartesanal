@@ -25,7 +25,7 @@ CSS STRUCTURE:
 body {
   --heading-font: "Poller One", Roboto, sans-serif;
   --heading-font-weight: 400;
-  --heading-color: #E93E4B;
+  --heading-color: #e65729;
   --heading-line-height: 1.24;
   --swiper-theme-color: #A58C81;
   --swiper-pagination-color: #A58C81;
@@ -40,7 +40,7 @@ body {
   --bs-body-bg-rgb: 246, 244, 239;
   --bs-body-bg: #F6F4EF;
 
-  --bs-primary: #E93E4B;
+  --bs-primary: #e65729;
   --bs-secondary: #F6F4EF;
   --bs-black: #000;
   --bs-white: #fff;
@@ -53,11 +53,12 @@ body {
   --bs-gray-800: #3D3A38;
   --bs-orange: #F68A25;
 
-  --bs-primary-rgb: 233, 62, 75;
-  --bs-secondary-rgb: 246, 244, 239;
+  --bs-primary-rgb: 255, 87, 34;    /* Laranja vivo */
+  --bs-secondary-rgb: 242, 242, 242; 
   --bs-black-rgb: 17, 17, 17;
   --bs-light-rgb: 241, 241, 240;
   --bs-dark-rgb: 33, 37, 41;
+  
 
   --bs-link-color: #111;
   --bs-link-color-rgb: 255, 255, 255;
@@ -158,10 +159,14 @@ a {
 }
 
 @media (min-width: 1600px) {
-.container, .container-lg {
+
+  .container,
+  .container-lg {
     max-width: 1530px;
   }
-.container, .container-md {
+
+  .container,
+  .container-md {
     max-width: 1200px;
   }
 }
@@ -198,7 +203,8 @@ a {
   --bs-btn-bg: var(--bs-light);
 }
 
-.btn-group-lg>.btn, .btn-lg {
+.btn-group-lg>.btn,
+.btn-lg {
   --bs-btn-padding-y: 1rem;
   --bs-btn-padding-x: 2.8rem;
   --bs-btn-font-size: 1.25rem;
@@ -228,6 +234,7 @@ a {
 .open-up {
   clip-path: inset(48% 34% 36% 35%);
 }
+
 .aos-animate.open-up {
   animation: 1s open-up forwards;
 }
@@ -267,177 +274,213 @@ a {
 
 /* margin */
 .my-lg-6 {
-  margin-top: 4.5rem!important;
-  margin-bottom: 4.5rem!important;
+  margin-top: 4.5rem !important;
+  margin-bottom: 4.5rem !important;
 }
+
 .my-lg-7 {
-  margin-top: 6.5rem!important;
-  margin-bottom: 6.5rem!important;
+  margin-top: 6.5rem !important;
+  margin-bottom: 6.5rem !important;
 }
+
 .my-lg-8 {
-  margin-top: 8.5rem!important;
-  margin-bottom: 8rem!important;
+  margin-top: 8.5rem !important;
+  margin-bottom: 8rem !important;
 }
+
 .my-lg-9 {
-  margin-top: 10.5rem!important;
-  margin-bottom: 10rem!important;
+  margin-top: 10.5rem !important;
+  margin-bottom: 10rem !important;
 }
+
 .my-lg-10 {
-  margin-top: 12.5rem!important;
-  margin-bottom: 12.5rem!important;
+  margin-top: 12.5rem !important;
+  margin-bottom: 12.5rem !important;
 }
+
 .mt-lg-0 {
-  margin-top: 0rem!important;
+  margin-top: 0rem !important;
 }
+
 .mb-lg-0 {
-  margin-bottom: 0rem!important;
+  margin-bottom: 0rem !important;
 }
 
 /* padding top and bottom */
 .py-lg-6 {
-  padding-top: 4.5rem!important;
-  padding-bottom: 4.5rem!important;
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
 }
+
 .py-lg-7 {
-  padding-top: 6.5rem!important;
-  padding-bottom: 6.5rem!important;
+  padding-top: 6.5rem !important;
+  padding-bottom: 6.5rem !important;
 }
+
 .py-lg-8 {
-  padding-top: 8.5rem!important;
-  padding-bottom: 8rem!important;
+  padding-top: 8.5rem !important;
+  padding-bottom: 8rem !important;
 }
+
 .py-lg-9 {
-  padding-top: 10.5rem!important;
-  padding-bottom: 10.5rem!important;
+  padding-top: 10.5rem !important;
+  padding-bottom: 10.5rem !important;
 }
+
 .py-lg-10 {
-  padding-top: 12.5rem!important;
-  padding-bottom: 12.5rem!important;
+  padding-top: 12.5rem !important;
+  padding-bottom: 12.5rem !important;
 }
+
 .py-lg-11 {
-  padding-top: 14.5rem!important;
-  padding-bottom: 14.5rem!important;
+  padding-top: 14.5rem !important;
+  padding-bottom: 14.5rem !important;
 }
+
 .py-lg-12 {
-  padding-top: 16.5rem!important;
-  padding-bottom: 16.5rem!important;
+  padding-top: 16.5rem !important;
+  padding-bottom: 16.5rem !important;
 }
 
 /* padding left and right */
 .px-lg-6 {
-  padding-left: 4.5rem!important;
-  padding-right: 4.5rem!important;
+  padding-left: 4.5rem !important;
+  padding-right: 4.5rem !important;
 }
+
 .px-lg-7 {
-  padding-left: 6.5rem!important;
-  padding-right: 6.5rem!important;
+  padding-left: 6.5rem !important;
+  padding-right: 6.5rem !important;
 }
+
 .px-lg-8 {
-  padding-left: 8.5rem!important;
-  padding-right: 8rem!important;
+  padding-left: 8.5rem !important;
+  padding-right: 8rem !important;
 }
+
 .px-lg-9 {
-  padding-left: 10.5rem!important;
-  padding-right: 10.5rem!important;
+  padding-left: 10.5rem !important;
+  padding-right: 10.5rem !important;
 }
+
 .px-lg-10 {
-  padding-left: 12.5rem!important;
-  padding-right: 12.5rem!important;
+  padding-left: 12.5rem !important;
+  padding-right: 12.5rem !important;
 }
+
 .px-lg-11 {
-  padding-left: 14.5rem!important;
-  padding-right: 14.5rem!important;
+  padding-left: 14.5rem !important;
+  padding-right: 14.5rem !important;
 }
+
 .px-lg-12 {
-  padding-left: 16.5rem!important;
-  padding-right: 16.5rem!important;
+  padding-left: 16.5rem !important;
+  padding-right: 16.5rem !important;
 }
 
 /* padding none */
 .pt-lg-0 {
-  padding-top: 0rem!important;
+  padding-top: 0rem !important;
 }
+
 .pb-lg-0 {
-  padding-bottom: 0rem!important;
+  padding-bottom: 0rem !important;
 }
 
 /* - Border Radius
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 .rounded-6 {
   border-radius: 3rem;
 }
+
 .rounded-7 {
   border-radius: 4rem;
 }
+
 .rounded-8 {
   border-radius: 5rem;
 }
+
 .rounded-9 {
   border-radius: 6rem;
 }
+
 .rounded-10 {
   border-radius: 7rem;
 }
+
 .rounded-11 {
   border-radius: 8rem;
 }
 
 /* - Background Color
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 .bg-orange {
   background-color: var(--bs-orange);
   opacity: 0.9;
 }
+
 .bg-white-trans {
   --bs-bg-opacity: 0.6;
-  background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
+
 .bg-gray-2 {
   background-color: var(--bs-gray-200);
 }
 
 
 /* - Font Family
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 .heading-font {
   font-family: var(--heading-font);
 }
+
 .body-font {
   font-family: var(--bs-body-font-family);
 }
 
 /* - Display Header
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 @media (min-width: 1200px) {
   .display-1 {
-     font-size: 4.125rem;
+    font-size: 4.125rem;
   }
- }
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+}
+
 
 /* - Svg Color
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 .svg-primary {
   fill: var(--bs-primary);
   color: var(--bs-primary);
 }
+
 .svg-secondary {
   fill: var(--bs-secondary);
   color: var(--bs-secondary);
 }
+
 .svg-gray-2 {
   fill: var(--bs-gray-200);
   color: var(--bs-gray-200);
 }
+
 .svg-link-color {
   color: var(--bs-gray-300);
 }
+
 .svg-link-color:hover {
   color: var(--bs-primary);
 }
 
 
 /* - Header
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 .offcanvas-body .navbar-nav a.nav-link.active,
 .offcanvas-body .navbar-nav a.nav-link:hover {
   color: var(--bs-primary);
@@ -445,10 +488,11 @@ a {
 
 
 /* - Billboard
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 #intro .pattern-overlay {
   bottom: 0;
 }
+
 .content-box {
   top: 0;
   bottom: 0;
@@ -458,19 +502,22 @@ a {
 
 
 /* - Featured Products
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 .product-card .card-detail {
   width: 60%;
   right: 0;
   bottom: -45px;
   left: 0;
 }
+
 #featured-products .swiper {
   overflow-y: visible;
 }
+
 #featured-products .swiper-pagination {
   bottom: -60px;
 }
+
 .swiper-pagination span.swiper-pagination-bullet {
   width: 16px;
   height: 16px;
@@ -479,6 +526,7 @@ a {
   border: 2px solid var(--bs-gray);
   opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
 }
+
 .swiper-pagination span.swiper-pagination-bullet-active {
   background-color: var(--bs-primary);
   border: 2px solid var(--bs-primary);
@@ -489,26 +537,28 @@ a {
   transition: 0.6s ease-in-out;
   cursor: pointer;
 }
+
 #featured-products .product-card:hover .cart-concern {
   bottom: 70px;
 }
 
 
 /* - Testimonials
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 #testimonials .swiper-pagination {
   bottom: 160px;
 }
 
 
 /* - Overview
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 .video-content .player {
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
+
 .video-content .player a.play-btn {
   width: 123px;
   height: 123px;
@@ -516,18 +566,19 @@ a {
 
 
 /* - Subscribe
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 .subscribe-content button.btn-subscribe {
   right: 10px;
   bottom: 55px;
   height: 50px;
 }
+
 .subscribe-content button:hover {
   color: var(--bs-primary) !important;
 }
 
 /* - Footer
-------------------------------------------------------------- */ 
+------------------------------------------------------------- */
 #footer .pattern-overlay {
   transform: rotate(180deg);
   top: -60px;
