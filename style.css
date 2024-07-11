@@ -559,6 +559,11 @@ a {
   left: 0;
 }
 
+.video-content img {
+  width: 60%;
+  height: 60%;
+}
+
 .video-content .player a.play-btn {
   width: 123px;
   height: 123px;
